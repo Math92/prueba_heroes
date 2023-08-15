@@ -86,6 +86,10 @@ section {
     left: 32px;
     display: inline-block;
     margin-right: 20px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
 }
 
 section:last-child {
@@ -103,9 +107,11 @@ section:last-child {
 .perfil {
     width: 120px;
     height: 120px;
-    top: 420px;
-    left: 782px;
-}
+    margin-top: -60px;
+    margin-left: 10px;
+    }
+    
+
 
 p {
     font-family: Roboto;
@@ -114,6 +120,8 @@ p {
     line-height: 19px;
     letter-spacing: 0em;
     text-align: left;
+    margin-top: 20px;
+
 }
 
 .p-footer {
@@ -135,4 +143,22 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 20px;
+}
+
+
+h3 {
+    width: 122px;
+    height: 35px;
+    top: 559px;
+    left: 121px;
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: center;
+    color:black;
+    margin-top: 20px;
+    white-space: nowrap;
 }
