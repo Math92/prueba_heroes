@@ -144,6 +144,7 @@ a {
     justify-content: center;
     align-items: center;
     margin-top: 20px;
+    margin-left: 75px;
 }
 
 
@@ -161,4 +162,11 @@ h3 {
     color:black;
     margin-top: 20px;
     white-space: nowrap;
+    margin-left: 75px;
+
+}
+
+
+.harley {
+    margin-left: 50px;
 }
