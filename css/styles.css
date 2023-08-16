@@ -89,11 +89,6 @@ section {
     text-align: center;
     align-items: center;
     justify-content: center;
-
-}
-
-section:last-child {
-    margin-right: 0;
 }
 
 .fondo-top {
@@ -107,7 +102,7 @@ section:last-child {
 .perfil {
     width: 120px;
     height: 120px;
-    margin-top: -60px;
+    margin-top: -90px;
     margin-left: 10px;
     }
     
@@ -169,4 +164,11 @@ h3 {
 
 .harley {
     margin-left: 50px;
+}
+
+.icon-hearth {
+    display: flex;
+    width: 30px;
+    height: 30px;
+    position: absolute;
 }
