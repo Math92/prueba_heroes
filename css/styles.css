@@ -82,13 +82,10 @@ h2 {
 section {
     width: 300.0000305175781px;
     height: 529px;
-    top: 292px;
-    left: 32px;
     display: inline-block;
     margin-right: 20px;
     text-align: center;
-    align-items: center;
-    justify-content: center;
+    position: relative;
 }
 
 .fondo-top {
@@ -169,6 +166,9 @@ h3 {
 .icon-hearth {
     display: flex;
     width: 30px;
-    height: 30px;
+    height: 26.249643325805664px;
+    top: 3px;
     position: absolute;
+    margin-left: 15px;
+    margin-top: 15px;
 }
