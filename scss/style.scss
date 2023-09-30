@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+$color-primary: #00669F;
+$color-secundary: #1CD1B0;
+$color-font1: #F3F3F3;
+$color-font2: #000000;
+
+@mixin logo {
+    width: 120px;
+    height: 120px;
+    margin-top: -90px;
+    margin-left: 10px;
+    margin-left: 5.5rem;
+}
+
+@mixin icon-heart {
+    display: flex;
+    width: 30px;
+    height: 26.249643325805664px;
+    top: 3px;
+    position: absolute;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+@mixin background {
+    width: 300px;
+    height: 194px;
+    top: 292px;
+    left: 32px;
+    border-radius: 16px 16px 0px 0px;
+}
+
+
+@mixin btn {
+    width: 128.78px;
+    height: 48.52px;
+    box-shadow: 0px 4px 4px 0px $color-font2;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    margin-top: 20px;
+    margin-left: 75px;
+    top: 754px;
+    left: 447px;
+    text-align: center;
+    color: $color-font1;
+    background-color: $color-primary;
+}
+
+body {
+    font-family: 'Roboto';
+    width: 64rem;
+    height: 1024px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    width: 64rem;
+    justify-content: center;
+    align-items: center;
+
+    section:first-child {
+        width: 64rem;
+        height: 38px;
+        background: $color-secundary;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 18px;
+        letter-spacing: 0em;
+        text-align: left;
+        display: flex;
+        padding: 1rem;
+        justify-content: flex-start;
+        align-items: center;
+
+        h2 {
+            font-size: 15px;
+            font-weight: 400;
+            line-height: 18px;
+            letter-spacing: 0em;
+            text-align: left;
+            
+        }
+    }
+
+    section:last-child {
+        width: 1024px;
+        height: 101px;
+        top: 38px;
+        border: 1px solid $color-font2;
+        background-color: $color-primary;
+        display: flex; 
+        align-items: center; 
+        text-align: left;
+        box-shadow: 0px 10px 7px 0px $color-font2;
+        font-weight: 400;
+        font-size: 1.5rem;
+        line-height: 47px;
+        letter-spacing: 0em;
+        position: fixed;
+        padding: 1rem;
+        z-index: 999;
+    }
+}
+
+main {
+    flex: 1;
+    height: 530px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    section {
+        width: 300.0000305175781px;
+        height: 529px;
+        gap: 1rem;
+        display: inline-block;
+        margin-right: 20px;
+        text-align: left;
+        position: relative;
+
+        img:nth-child(3) {
+            @include logo;
+        }
+
+        img:nth-child(1) {
+            @include background;
+        }
+
+        img:nth-child(2) {
+            @include icon-heart;
+        }
+
+        p {
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 19px;
+            letter-spacing: 0em;
+            text-align: left;
+            margin-top: 20px;
+        }
+
+        h3 {
+            width: 122px;
+            height: 35px;
+            top: 559px;
+            left: 121px;
+            font-size: 30px;
+            font-weight: 400;
+            line-height: 35px;
+            letter-spacing: 0em;
+            text-align: center;
+            color: $color-font2;
+            margin-top: 20px;
+            white-space: nowrap;
+            margin-left: 75px;
+        }
+
+        button {
+            @include btn;
+            cursor: pointer;
+        }
+    }  
+} 
+
+footer {
+    width: 64rem;
+    height: 51px;
+    background: $color-primary;
+    box-shadow: 0px 4px 4px 0px $color-font2;
+    color: $color-font1;
+    display: flex; 
+    padding: 1rem;
+    align-items: center; 
+    text-align: left;
+
+    p {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 19px;
+        letter-spacing: 0em;
+        text-align: center;
+    }
+}
+
+
+
