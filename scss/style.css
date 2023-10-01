@@ -6,8 +6,8 @@
 }
 
 body {
+  width: 100vw;
   font-family: "Roboto";
-  width: 64rem;
   height: 1024px;
   min-height: 100vh;
   display: flex;
@@ -17,9 +17,9 @@ body {
 }
 
 header {
+  width: 100vw;
   display: flex;
   flex-direction: column;
-  width: 64rem;
   justify-content: center;
   align-items: center;
 }
@@ -64,11 +64,12 @@ header section:last-child {
 }
 
 main {
-  flex: 1;
+  width: 100vw;
   height: 530px;
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-top: 2rem;
 }
 main section {
   width: 300.0000305176px;
@@ -144,6 +145,7 @@ main section button {
 }
 
 footer {
+  width: 100vw;
   width: 64rem;
   height: 51px;
   background: #00669F;
